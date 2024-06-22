@@ -1,0 +1,117 @@
+.conteiner {
+  height: 797px;
+  width: 634px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+.to-do-list {
+  height: 100%;
+  width: 100%;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.list {
+  height: 621px;
+  width: 514px;
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 16.5%;
+  left: 10%;
+}
+
+.input_name {
+  height: 64px;
+  width: 324px;
+  background-color: white;
+  position: absolute;
+  top: 5.5%;
+  left: 14.8%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  margin-left: -30px;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.input_name:focus {
+  outline-offset: -3px;
+  outline-color: #e6e6e6;
+}
+
+.bottom-add {
+  flex: 1;
+  background-color: #fbcc28;
+  height: 66px;
+  width: 160px;
+  margin-left: 354px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  top: 5.5%;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 19px;
+}
+
+.uncorrectly {
+  height: 85px;
+  width: 474px;
+  border-radius: 10px;
+  background-color: #ffebeb;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+}
+
+.correctly {
+  height: 85px;
+  width: 474px;
+  border-radius: 10px;
+  background-color: #ebffed;
+  position: absolute;
+  top: 20%;
+  left: 4%;
+}
+
+img {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  margin-top: -1.2em;
+  left: 88%;
+  top: 50%;
+}
+
+.checkbox-bottom {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  margin-top: -1em;
+  left: 4%;
+  top: 50%;
+}
+
+p {
+  position: absolute;
+  margin-top: -0.68em;
+  left: 14%;
+  top: 50%;
+  font-family: Inter;
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: "Inter";  
+  src: url("font/Inter-VariableFont_slnt\,wght.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}
